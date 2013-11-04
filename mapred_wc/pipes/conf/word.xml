@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<configuration>
+  <property>
+    // Set the binary path on DFS
+    <name>hadoop.pipes.executable</name>
+    <value>/usr/hdyige/tests/mapred_wc/mapred_wc</value>
+  </property>
+  <property>
+    <name>hadoop.pipes.java.recordreader</name>
+    <value>true</value>
+  </property>
+  <property>
+    <name>hadoop.pipes.java.recordwriter</name>
+    <value>true</value>
+  </property>
+</configuration>
